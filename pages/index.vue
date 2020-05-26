@@ -80,6 +80,10 @@ export default {
         name: 'Nuxt.js'
       },
       {
+        id: 'speed',
+        name: 'Awesome page speed'
+      },
+      {
         id: 'aws',
         name: 'AWS'
       },
@@ -105,7 +109,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/fetch/v1590397433/https://webcoop.cat/_nuxt/img/3801dd1.jpg',
         alt: '',
         client: 'webcoop.cat',
-        tags: ['vue', 'nuxt']
+        tags: ['vue', 'nuxt', 'speed']
       },
       {
         name: 'Map widget',
@@ -133,6 +137,15 @@ export default {
         alt: '',
         client: 'Closer2Event',
         tags: ['vue', 'nuxt']
+      },
+      {
+        name: 'This portfolio',
+        type: 'Frontend: Nuxt',
+        href: 'https://demo.webcoop.cat/portfolio',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590506832/Screenshot_2020-05-26_portfolio_pjoz5g.png',
+        alt: '',
+        client: 'webcoop.cat',
+        tags: ['vue', 'nuxt', 'speed']
       },
       {
         name: 'Dashboards',
