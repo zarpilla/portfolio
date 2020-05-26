@@ -92,6 +92,10 @@ export default {
         name: 'AWS'
       },
       {
+        id: 'spa',
+        name: 'SPA'
+      },
+      {
         id: 'firebase',
         name: 'Firebase'
       },
@@ -102,6 +106,10 @@ export default {
       {
         id: 'woocommerce',
         name: 'Woocommerce'
+      },
+      {
+        id: 'php',
+        name: 'PHP'
       }
     ]
 
@@ -122,7 +130,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590499908/Screenshot_2020-05-26_RebusTech_uoah8o.png',
         alt: '',
         client: 'Closer2Event',
-        tags: ['angular', 'node', 'aws', 'javascript']
+        tags: ['angular', 'node', 'aws', 'javascript', 'spa']
       },
       {
         name: 'Custom LMS',
@@ -131,7 +139,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590501979/Screenshot_2020-05-26_EDUCOV_-_Reptes_i_recursos_educatius_en_directe_p%C3%BAblics_gratu%C3%AFts_i_oberts_hwm4sg.png',
         alt: '',
         client: 'webcoop.cat',
-        tags: ['vue', 'firebase', 'javascript']
+        tags: ['vue', 'firebase', 'javascript', 'spa']
       },
       {
         name: 'Website',
@@ -176,7 +184,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590501412/Screenshot_2020-05-26_Developer_Tools_-_Mapex_ggw6bq.png',
         alt: '',
         client: 'Mapex',
-        tags: ['angular', 'net', 'javascript']
+        tags: ['angular', 'net', 'javascript', 'spa']
       },
       {
         name: 'IoT Agro Sensors',
@@ -185,25 +193,25 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590501729/Screenshot_2020-05-26_SIGROW_l3orzt.png',
         alt: '',
         client: 'Sigrow',
-        tags: ['angular', 'javascript']
+        tags: ['angular', 'javascript', 'spa']
       },
       {
-        name: 'Website',
+        name: 'SPA',
         type: 'Frontend: Vue, Backend: Firebase',
         href: 'https://suportdarrel.webcoop.cat/',
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502939/7c2bd0c_c1zvsf.png',
         alt: '',
         client: "Suport d'Arrel",
-        tags: ['vue', 'firebase', 'javascript']
+        tags: ['vue', 'firebase', 'javascript', 'spa']
       },
       {
-        name: 'Website',
+        name: 'SPA',
         type: 'Frontend: HTML, Javascript',
         href: 'https://demo.webcoop.cat/sismograf',
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590507227/Screenshot_2020-05-26_sismograf_jfd0do.png',
         alt: '',
         client: 'Sismògraf ESS',
-        tags: ['javascript', 'javascript']
+        tags: ['javascript', 'javascript', 'spa']
       },
       {
         name: 'Ecommerce',
@@ -212,7 +220,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502277/Screenshot_2020-05-26_L_EKOmERCAT_El_petit_mercat_de_productors_ecol%C3%B2gics_de_proximitat_i_artesans_ybnhht.png',
         alt: '',
         client: 'webcoop',
-        tags: ['wordpress', 'woocommerce']
+        tags: ['wordpress', 'php', 'woocommerce']
       },
       {
         name: 'Ecommerce',
@@ -221,7 +229,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502488/Screenshot_2020-05-26_Forestal_i_Jardineria_Planas_Forestal_i_Jardineria_oacje7.png',
         alt: '',
         client: 'Planas Forestal Jardineria',
-        tags: ['wordpress', 'woocommerce']
+        tags: ['wordpress', 'php', 'woocommerce']
       },
       {
         name: 'Website',
@@ -240,6 +248,15 @@ export default {
         alt: '',
         client: 'FESS Rural',
         tags: ['wordpress']
+      },
+      {
+        name: 'Presentation',
+        type: 'HTML, Javascript',
+        href: 'https://anarfentbdt.cat/presentacio/',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590514162/Screenshot_2020-05-26_Banc_del_temps_del_Ripoll%C3%A8s_fpqnwx.png',
+        alt: '',
+        client: 'XES Ripollès',
+        tags: ['javascript', 'spa']
       },
       {
         name: 'Website',
