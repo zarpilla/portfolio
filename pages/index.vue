@@ -5,7 +5,7 @@
         <h1>PORTFOLIO</h1>
         <p>Some works</p>
 
-        <nav class="level">
+        <nav class="level is-hidden-mobile">
           <div class="level-right">
             <p v-for="cat in categories" v-bind:key="cat.id" class="level-item">
               <span v-if="category == cat.id">{{ cat.name }}</span>
@@ -19,17 +19,17 @@
     <div class="container-fluid">
       <div class="columns is-desktop portfolio">
         <div class="column is-4">
-          <div class="img-container" v-for="item in items1" v-bind:key="item.name">
+          <div class="img-container" v-for="(item, index) in items1" v-bind:key="index">
             <Project v-bind:item="item" v-bind:category="category"></Project>
           </div>
         </div>
         <div class="column is-4">
-          <div class="img-container" v-for="item in items2" v-bind:key="item.name">
+          <div class="img-container" v-for="(item, index) in items2" v-bind:key="index">
             <Project v-bind:item="item" v-bind:category="category"></Project>
           </div>
         </div>
         <div class="column is-4">
-          <div class="img-container" v-for="item in items3" v-bind:key="item.name">
+          <div class="img-container" v-for="(item, index) in items3" v-bind:key="index">
             <Project v-bind:item="item" v-bind:category="category"></Project>
           </div>
         </div>
@@ -64,6 +64,10 @@ export default {
         name: 'All'
       },
       {
+        id: 'javascript',
+        name: 'Javascript'
+      },
+      {
         id: 'angular',
         name: 'Angular'
       },
@@ -73,11 +77,11 @@ export default {
       },
       {
         id: 'node',
-        name: 'Node.js'
+        name: 'Node'
       },
       {
         id: 'nuxt',
-        name: 'Nuxt.js'
+        name: 'Nuxt'
       },
       {
         id: 'speed',
@@ -109,7 +113,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/fetch/v1590397433/https://webcoop.cat/_nuxt/img/3801dd1.jpg',
         alt: '',
         client: 'webcoop.cat',
-        tags: ['vue', 'nuxt', 'speed']
+        tags: ['vue', 'nuxt', 'javascript', 'speed']
       },
       {
         name: 'Map widget',
@@ -118,7 +122,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590499908/Screenshot_2020-05-26_RebusTech_uoah8o.png',
         alt: '',
         client: 'Closer2Event',
-        tags: ['angular', 'node', 'aws']
+        tags: ['angular', 'node', 'aws', 'javascript']
       },
       {
         name: 'Custom LMS',
@@ -127,7 +131,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590501979/Screenshot_2020-05-26_EDUCOV_-_Reptes_i_recursos_educatius_en_directe_p%C3%BAblics_gratu%C3%AFts_i_oberts_hwm4sg.png',
         alt: '',
         client: 'webcoop.cat',
-        tags: ['vue', 'firebase']
+        tags: ['vue', 'firebase', 'javascript']
       },
       {
         name: 'Website',
@@ -136,7 +140,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590500031/Screenshot_2020-05-26_Showcases_-_Closer2event_zn3rxa.png',
         alt: '',
         client: 'Closer2Event',
-        tags: ['vue', 'nuxt']
+        tags: ['vue', 'nuxt', 'javascript']
       },
       {
         name: 'This portfolio',
@@ -145,7 +149,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590506832/Screenshot_2020-05-26_portfolio_pjoz5g.png',
         alt: '',
         client: 'webcoop.cat',
-        tags: ['vue', 'nuxt', 'speed']
+        tags: ['vue', 'nuxt', 'speed', 'javascript']
       },
       {
         name: 'Dashboards',
@@ -154,7 +158,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590500261/Screenshot_2020-05-26_Detalle_de_m%C3%A1quina_dark_theme_-_Mapex_Dashboards_1_sakr4i.png',
         alt: '',
         client: 'Mapex',
-        tags: ['angularjs', 'net']
+        tags: ['angularjs', 'net', 'javascript']
       },
       {
         name: 'VR backoffice',
@@ -163,7 +167,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590501553/Screenshot_2020-05-26_Lightbox_-_Immersive_product_visualization_yyrgze.png',
         alt: '',
         client: 'Virtual Age',
-        tags: ['vue', 'php']
+        tags: ['vue', 'php', 'javascript']
       },
       {
         name: 'Dynamic compilation',
@@ -172,7 +176,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590501412/Screenshot_2020-05-26_Developer_Tools_-_Mapex_ggw6bq.png',
         alt: '',
         client: 'Mapex',
-        tags: ['angular', 'net']
+        tags: ['angular', 'net', 'javascript']
       },
       {
         name: 'IoT Agro Sensors',
@@ -181,7 +185,7 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590501729/Screenshot_2020-05-26_SIGROW_l3orzt.png',
         alt: '',
         client: 'Sigrow',
-        tags: ['angular']
+        tags: ['angular', 'javascript']
       },
       {
         name: 'Website',
@@ -190,7 +194,16 @@ export default {
         img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502939/7c2bd0c_c1zvsf.png',
         alt: '',
         client: "Suport d'Arrel",
-        tags: ['vue', 'firebase']
+        tags: ['vue', 'firebase', 'javascript']
+      },
+      {
+        name: 'Website',
+        type: 'Frontend: HTML, Javascript',
+        href: 'https://demo.webcoop.cat/sismograf',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590507227/Screenshot_2020-05-26_sismograf_jfd0do.png',
+        alt: '',
+        client: 'Sismògraf ESS',
+        tags: ['javascript', 'javascript']
       },
       {
         name: 'Ecommerce',
@@ -213,19 +226,19 @@ export default {
       {
         name: 'Website',
         type: 'Wordpress',
-        href: 'https://fessrural.cat/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502759/Screenshot_2020-05-26_FESS_Rural_Festival_de_l_Economia_Social_i_Solid%C3%A0ria_rural_op2hrl.png',
+        href: 'https://www.tutelardelripolles.cat/',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502647/Screenshot_2020-05-26_Tutelar_del_Ripoll%C3%A8s_Fundaci%C3%B3_Tutelar_del_Ripoll%C3%A8s_bq1sbe.png',
         alt: '',
-        client: 'FESS Rural',
+        client: 'Fundació Tutelar del Ripollès',
         tags: ['wordpress']
       },
       {
         name: 'Website',
         type: 'Wordpress',
-        href: 'https://www.tutelardelripolles.cat/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502647/Screenshot_2020-05-26_Tutelar_del_Ripoll%C3%A8s_Fundaci%C3%B3_Tutelar_del_Ripoll%C3%A8s_bq1sbe.png',
+        href: 'https://fessrural.cat/',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/v1590502759/Screenshot_2020-05-26_FESS_Rural_Festival_de_l_Economia_Social_i_Solid%C3%A0ria_rural_op2hrl.png',
         alt: '',
-        client: 'Fundació Tutelar del Ripollès',
+        client: 'FESS Rural',
         tags: ['wordpress']
       },
       {
@@ -296,6 +309,12 @@ a{
 }
 .content p:last-child{
   margin-bottom:1rem;
+}
+
+@media only screen and (max-width: 769px) {
+  .portfolio .img-container .gallery-hover {
+  opacity: 0.85;
+}
 }
 
 </style>
