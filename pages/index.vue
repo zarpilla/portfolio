@@ -135,7 +135,7 @@ export default {
         name: 'Map widget',
         type: 'Angular, Node, AWS, PHP',
         href: 'https://map.closer2Event.com/?event=cruilla',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590499908/Screenshot_2020-05-26_RebusTech_uoah8o.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590499908/Screenshot_2020-05-26_RebusTech_uoah8o.png',
         alt: '',
         client: 'Closer2Event',
         tags: ['angular', 'node', 'aws', 'javascript', 'spa', 'php']
@@ -144,7 +144,7 @@ export default {
         name: 'Custom LMS',
         type: 'Frontend: Vue, Backend: Firebase',
         href: 'https://educov.cat',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590501979/Screenshot_2020-05-26_EDUCOV_-_Reptes_i_recursos_educatius_en_directe_p%C3%BAblics_gratu%C3%AFts_i_oberts_hwm4sg.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590501979/Screenshot_2020-05-26_EDUCOV_-_Reptes_i_recursos_educatius_en_directe_p%C3%BAblics_gratu%C3%AFts_i_oberts_hwm4sg.png',
         alt: '',
         client: 'webcoop.cat',
         tags: ['vue', 'firebase', 'javascript', 'spa']
@@ -153,7 +153,7 @@ export default {
         name: 'Website',
         type: 'Frontend: Nuxt',
         href: 'https://closer2Event.com',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590500031/Screenshot_2020-05-26_Showcases_-_Closer2event_zn3rxa.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590500031/Screenshot_2020-05-26_Showcases_-_Closer2event_zn3rxa.png',
         alt: '',
         client: 'Closer2Event',
         tags: ['vue', 'nuxt', 'javascript']
@@ -162,7 +162,7 @@ export default {
         name: 'Website',
         type: 'Wordpress',
         href: 'https://karinasimieli.com/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590573136/ii483897106_kfa7bo.jpg',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590573136/ii483897106_kfa7bo.jpg',
         alt: '',
         client: 'Karina Simieli',
         tags: ['wordpress']
@@ -171,7 +171,7 @@ export default {
         name: 'This portfolio',
         type: 'Frontend: Nuxt',
         href: 'https://demo.webcoop.cat/portfolio',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590506832/Screenshot_2020-05-26_portfolio_pjoz5g.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590506832/Screenshot_2020-05-26_portfolio_pjoz5g.png',
         alt: '',
         client: 'webcoop.cat',
         tags: ['vue', 'nuxt', 'speed', 'javascript']
@@ -180,7 +180,7 @@ export default {
         name: 'Dashboards',
         type: 'Frontend: AngularJs, Backend: .Net',
         href: 'https://cloud.mapex.es/dashboards/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590500261/Screenshot_2020-05-26_Detalle_de_m%C3%A1quina_dark_theme_-_Mapex_Dashboards_1_sakr4i.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590500261/Screenshot_2020-05-26_Detalle_de_m%C3%A1quina_dark_theme_-_Mapex_Dashboards_1_sakr4i.png',
         alt: '',
         client: 'Mapex',
         tags: ['angularjs', 'net', 'javascript']
@@ -189,7 +189,7 @@ export default {
         name: 'VR backoffice',
         type: 'Frontend: Vue, Backend: PHP, Stripe',
         href: 'https://www.lightboxar.com/app/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590501553/Screenshot_2020-05-26_Lightbox_-_Immersive_product_visualization_yyrgze.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590501553/Screenshot_2020-05-26_Lightbox_-_Immersive_product_visualization_yyrgze.png',
         alt: '',
         client: 'Virtual Age',
         tags: ['vue', 'php', 'javascript']
@@ -198,7 +198,7 @@ export default {
         name: 'Dynamic compilation',
         type: 'Frontend: Angular, Backend: .Net Core',
         href: 'https://mapexcloud2.azurewebsites.net/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590501412/Screenshot_2020-05-26_Developer_Tools_-_Mapex_ggw6bq.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590501412/Screenshot_2020-05-26_Developer_Tools_-_Mapex_ggw6bq.png',
         alt: '',
         client: 'Mapex',
         tags: ['angular', 'net', 'javascript', 'spa']
@@ -207,7 +207,7 @@ export default {
         name: 'IoT Agro Sensors',
         type: 'Frontend: Angular',
         href: 'https://app.sigrow.com/webapp/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590501729/Screenshot_2020-05-26_SIGROW_l3orzt.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590501729/Screenshot_2020-05-26_SIGROW_l3orzt.png',
         alt: '',
         client: 'Sigrow',
         tags: ['angular', 'javascript', 'spa']
@@ -216,7 +216,7 @@ export default {
         name: 'SPA',
         type: 'Frontend: Vue, Backend: Firebase',
         href: 'https://suportdarrel.webcoop.cat/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590502939/7c2bd0c_c1zvsf.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590502939/7c2bd0c_c1zvsf.png',
         alt: '',
         client: "Suport d'Arrel",
         tags: ['vue', 'firebase', 'javascript', 'spa']
@@ -225,7 +225,7 @@ export default {
         name: 'SPA',
         type: 'Frontend: HTML, Javascript',
         href: 'https://demo.webcoop.cat/sismograf',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590507227/Screenshot_2020-05-26_sismograf_jfd0do.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590507227/Screenshot_2020-05-26_sismograf_jfd0do.png',
         alt: '',
         client: 'Sismògraf ESS',
         tags: ['javascript', 'javascript', 'spa']
@@ -234,7 +234,7 @@ export default {
         name: 'Ecommerce',
         type: 'Woocommerce',
         href: 'https://ekomercat.com',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590502277/Screenshot_2020-05-26_L_EKOmERCAT_El_petit_mercat_de_productors_ecol%C3%B2gics_de_proximitat_i_artesans_ybnhht.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590502277/Screenshot_2020-05-26_L_EKOmERCAT_El_petit_mercat_de_productors_ecol%C3%B2gics_de_proximitat_i_artesans_ybnhht.png',
         alt: '',
         client: 'webcoop',
         tags: ['wordpress', 'php', 'woocommerce']
@@ -243,7 +243,7 @@ export default {
         name: 'Ecommerce',
         type: 'Woocommerce',
         href: 'https://planasforestaljardineria.com',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590502488/Screenshot_2020-05-26_Forestal_i_Jardineria_Planas_Forestal_i_Jardineria_oacje7.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590502488/Screenshot_2020-05-26_Forestal_i_Jardineria_Planas_Forestal_i_Jardineria_oacje7.png',
         alt: '',
         client: 'Planas Forestal Jardineria',
         tags: ['wordpress', 'php', 'woocommerce']
@@ -252,7 +252,7 @@ export default {
         name: 'Website',
         type: 'Wordpress',
         href: 'https://www.tutelardelripolles.cat/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590502647/Screenshot_2020-05-26_Tutelar_del_Ripoll%C3%A8s_Fundaci%C3%B3_Tutelar_del_Ripoll%C3%A8s_bq1sbe.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590502647/Screenshot_2020-05-26_Tutelar_del_Ripoll%C3%A8s_Fundaci%C3%B3_Tutelar_del_Ripoll%C3%A8s_bq1sbe.png',
         alt: '',
         client: 'Fundació Tutelar del Ripollès',
         tags: ['wordpress']
@@ -261,7 +261,7 @@ export default {
         name: 'PIXI.js effect',
         type: 'Javascript',
         href: 'https://demo.webcoop.cat/demo/stars.html',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590573702/Screenshot_2020-05-27_Stars_h1akap.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590573702/Screenshot_2020-05-27_Stars_h1akap.png',
         alt: '',
         client: 'webcoop.cat',
         tags: ['pixi', 'javascript']
@@ -270,7 +270,7 @@ export default {
         name: 'PIXI.js effect',
         type: 'Javascript',
         href: 'https://demo.webcoop.cat/demo/earthquake.html',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590573835/Screenshot_2020-05-27_Earthquake_ez7uex.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590573835/Screenshot_2020-05-27_Earthquake_ez7uex.png',
         alt: '',
         client: 'webcoop.cat',
         tags: ['pixi', 'javascript']
@@ -279,7 +279,7 @@ export default {
         name: 'Presentation',
         type: 'HTML, Javascript',
         href: 'https://anarfentbdt.cat/presentacio/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590514162/Screenshot_2020-05-26_Banc_del_temps_del_Ripoll%C3%A8s_fpqnwx.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590514162/Screenshot_2020-05-26_Banc_del_temps_del_Ripoll%C3%A8s_fpqnwx.png',
         alt: '',
         client: 'XES Ripollès',
         tags: ['javascript', 'spa']
@@ -288,7 +288,7 @@ export default {
         name: 'Website',
         type: 'Wordpress',
         href: 'https://anarfentbdt.cat/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590505882/logo-fem-util-300x162_nknxlq.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590505882/logo-fem-util-300x162_nknxlq.png',
         alt: '',
         client: 'XES Ripollès',
         tags: ['wordpress']
@@ -297,7 +297,7 @@ export default {
         name: 'Website',
         type: 'Wordpress',
         href: 'https://fessrural.cat/',
-        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_80/v1590502759/Screenshot_2020-05-26_FESS_Rural_Festival_de_l_Economia_Social_i_Solid%C3%A0ria_rural_op2hrl.png',
+        img: 'https://res.cloudinary.com/dxk1jxscn/image/upload/q_auto/f_auto/v1590502759/Screenshot_2020-05-26_FESS_Rural_Festival_de_l_Economia_Social_i_Solid%C3%A0ria_rural_op2hrl.png',
         alt: '',
         client: 'FESS Rural',
         tags: ['wordpress']
