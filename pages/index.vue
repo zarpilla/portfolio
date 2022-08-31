@@ -84,6 +84,10 @@ export default {
         name: 'Page speed optimization'
       },
       {
+        id: 'ml',
+        name: 'Machine Learning'
+      },
+      {
         id: 'aws',
         name: 'AWS'
       },
@@ -132,6 +136,15 @@ export default {
         tags: ['vue', 'nuxt', 'javascript', 'speed']
       },
       {
+        name: 'Project Management',
+        type: 'Strapi, Node, Vue',
+        href: 'https://projectes.resilience.earth/stats/',
+        img: 'images/strapi.png',
+        alt: '',
+        client: 'Open Source, Resilience Earth, Arran de Terra',
+        tags: ['node', 'vue', 'javascript', 'spa']
+      },
+      {
         name: 'Map widget',
         type: 'Angular, Node, AWS, PHP',
         href: 'https://map.closer2Event.com/?event=cruilla',
@@ -148,6 +161,15 @@ export default {
         alt: '',
         client: 'webcoop.cat',
         tags: ['vue', 'firebase', 'javascript', 'spa']
+      },
+      {
+        name: 'Findupix',
+        type: 'Frontend: Vue, Backend: Firebase, Wordpress integration',
+        href: 'https://findupix.com',
+        img: 'images/findupix.png',
+        alt: '',
+        client: 'findupix.com',
+        tags: ['vue', 'firebase', 'javascript', 'spa', 'wordpress', 'ml']
       },
       {
         name: 'Website',
